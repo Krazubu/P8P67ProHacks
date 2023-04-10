@@ -84,8 +84,9 @@ version 1.0 : 1st version
 version 1.1 : disabled entries for absent hardware or not working
 version 1.2 : disabled more useless entries, added NVME and made 2 versions to chose between HQ logo or NVME
 
-WARNING !!! THOSE BIOS CONTAIN NO FD44 DATA, BRING YOURS USING FD44 TOOL BEFORE FLASHING !!!
-
+```diff
+- WARNING !!! THOSE BIOS CONTAIN NO FD44 DATA, BRING YOURS USING FD44 TOOL BEFORE FLASHING !!!
+```
 P8P67Pro3602HQlogo.zip (3.34 MB)
 
 P8P67Pro3602nvme.zip (3.27 MB)
