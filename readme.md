@@ -54,37 +54,16 @@ P8P67Pro3602HQlogo without NVME and with high quality logo
 P8P67Pro3602nvme with NVME and default logo
 
 
-Some screenshots (there might be little differences here and there, not all are up to date)
-
-![alt text](https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/0293753c378f5b17cf19a07f65109732359d5a5e.jpg)
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/27b5f89761b0b150e158ae20f28a0f3fbce3f112.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/33babb750fceca30695c6d32757f02a25b37e219.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/3a1fbc0ea10d530501dc3bb95879f7b5889d047c.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/4f7e1807978d0e48fbb2de86f7c205e7e1ae366d.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/59c95893d90e539123ec5fa35637bf0a0fd39072.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/a4e090129e27b31a93990002b1f248ae6a48bf3d.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/abe74d49bd88bedafb926606273e128a79d2aceb.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/d54850843f1336765445993c2a9d41ef5310c4a6.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/dd3d5144342842b66247d5a9caab323ed55c8706.jpg
-
-https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/ebac0ad3d03f0fb57b204e534443f6361244b9f5.jpg
-
-
-
+See screenshots folder to see detail of available options (there might be little differences here and there, not all are up to date)
+A HD background with better quality was added to make good use of the now working GOP driver. 
+![alt text](https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/dd3d5144342842b66247d5a9caab323ed55c8706.jpg)
 
 
 Changelog :
 version 1.0 : 1st version
+
 version 1.1 : disabled entries for absent hardware or not working
+
 version 1.2 : disabled more useless entries, added NVME and made 2 versions to chose between HQ logo or NVME
 
 ```diff
