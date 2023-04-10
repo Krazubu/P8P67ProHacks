@@ -45,21 +45,24 @@ If you mind having displays switching, as workaround, you can make everything di
 - No logo during windows boot. This is because BGRT ACPI table still has display bit status set to 0. I suspect this is because something does switch display mode during POST which in turns disables this bit. However the logo is present in memory and the BGRT table is valid, a workaround to force logo display like using Opencore or configuring Windows’ boot loader can get it displayed.
 
 About the many new options :
+
 You’ll see there are tons of options. So far, the options I tried run fairly well and do work, but I’m far from having tested them all, if you notice something that doesn’t work, or is irrelevant for this mobo, please report.
 Some irrelevant settings were left disabled (not working or intended to absent devices like integrated GPU or battery…)
 
+See screenshots folder to see detail of available options (there might be little differences here and there, not all are up to date)
+
+A HD background with better quality was added to make good use of the now working GOP driver. 
+![alt text](https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/dd3d5144342842b66247d5a9caab323ed55c8706.jpg)
+
 Other notes :
+
 - Due to limited space, it was not possible to have HD logo and NVME at same time. Two versions are proposed :
 P8P67Pro3602HQlogo without NVME and with high quality logo
 P8P67Pro3602nvme with NVME and default logo
 
 
-See screenshots folder to see detail of available options (there might be little differences here and there, not all are up to date)
-A HD background with better quality was added to make good use of the now working GOP driver. 
-![alt text](https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/dd3d5144342842b66247d5a9caab323ed55c8706.jpg)
-
-
 Changelog :
+
 version 1.0 : 1st version
 
 version 1.1 : disabled entries for absent hardware or not working
@@ -69,6 +72,6 @@ version 1.2 : disabled more useless entries, added NVME and made 2 versions to c
 ```diff
 - WARNING !!! THOSE BIOS CONTAIN NO FD44 DATA, BRING YOURS USING FD44 TOOL BEFORE FLASHING !!!
 ```
-P8P67Pro3602HQlogo.zip (3.34 MB)
+[P8P67Pro BIOS with HQ Logo](https://github.com/Krazubu/P8P67ProHacks/blob/main/P8P67Pro3602HQlogo.zip) (3.34 MB)
 
-P8P67Pro3602nvme.zip (3.27 MB)
+[P8P67Pro BIOS with NVME support](https://github.com/Krazubu/P8P67ProHacks/blob/main/P8P67Pro3602nvme.zip) (3.27 MB)
