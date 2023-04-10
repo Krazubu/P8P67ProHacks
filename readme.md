@@ -28,12 +28,15 @@ It is highly recommended that you disable OPROMs as they seem to interfere with 
 This was tested with dual graphics with RX560 and RX580 (3 displays).
 This fix can probably be applied to all other P67 family boards from ASUS that suffer the same bug and also many other boards with different chipsets but same generation (like Z68).
 
-About “Above 4G decoding” :
-You must pay special attention to the status of \ Advanced \ PCI Subsystem Settings \ Above 4G decoding, whether you use legacy or GOP display init.
-- Above 4G decoding must be disabled when running display in legacy mode
-- Above 4G decoding must be enabled when running display in GOP mode
-Other combinations will result in getting video signal with black screen and no POST.
-Those results were obtained using RX580 on PCIEX16_1 and RX560 PCIEX16_2, your mileage may vary depending on your configuration, in case of problem use the reset CMOS jumper to get back to bootable state.
+```diff
+-     About “Above 4G decoding” :
+-     You must pay special attention to the status of \ Advanced \ PCI Subsystem Settings \ Above 4G decoding, whether you use legacy or GOP display init.
+-     - Above 4G decoding must be disabled when running display in legacy mode
+-     - Above 4G decoding must be enabled when running display in GOP mode
+-     Other combinations will result in getting video signal with black screen and no POST.
+-     Those results were obtained using RX580 on PCIEX16_1 and RX560 PCIEX16_2, your mileage may vary depending on your configuration.
+-     In case of problem use the reset CMOS jumper to get back to bootable state.
+```
 
 Known issues :
 - Logo/POST appear on secondary PEG with multiple graphic cards but setup interface and boot selection menu appear on the primary, there’s an option to choose the primary PEG port but it doesn’t seem to work, so I’ve let it hidden.
@@ -53,28 +56,28 @@ P8P67Pro3602nvme with NVME and default logo
 
 Some screenshots (there might be little differences here and there, not all are up to date)
 
+![alt text](https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/0293753c378f5b17cf19a07f65109732359d5a5e.jpg)
 
-210121225941.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/27b5f89761b0b150e158ae20f28a0f3fbce3f112.jpg
 
-210201231429.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/33babb750fceca30695c6d32757f02a25b37e219.jpg
 
-210201231811.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/3a1fbc0ea10d530501dc3bb95879f7b5889d047c.jpg
 
-210201231739.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/4f7e1807978d0e48fbb2de86f7c205e7e1ae366d.jpg
 
-210201231524.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/59c95893d90e539123ec5fa35637bf0a0fd39072.jpg
 
-210201231541.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/a4e090129e27b31a93990002b1f248ae6a48bf3d.jpg
 
-210201231458.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/abe74d49bd88bedafb926606273e128a79d2aceb.jpg
 
-210201231450.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/d54850843f1336765445993c2a9d41ef5310c4a6.jpg
 
-210201231440.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/dd3d5144342842b66247d5a9caab323ed55c8706.jpg
 
-210201232023.jpg
+https://github.com/Krazubu/P8P67ProHacks/blob/main/Screenshots/ebac0ad3d03f0fb57b204e534443f6361244b9f5.jpg
 
-Custom logo reduced.jpg
 
 
 
